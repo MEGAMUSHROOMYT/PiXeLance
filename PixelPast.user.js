@@ -22,8 +22,6 @@
 
 // ==/UserScript==
 
-GM_fetch('')
-
 GM.xmlHttpRequest({
     method: 'GET',
     url: 'https://raw.githubusercontent.com/sheezzmee/PixelPast/main/dist/main.js',
