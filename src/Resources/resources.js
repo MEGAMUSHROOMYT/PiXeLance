@@ -31,7 +31,7 @@ export default {
             from: `${resourceUrl}/0/114/132/50/30023221517011`,
             to: [
                 `${resources}/maps/chernobyl/atlas.webp`,
-                `${resources}/maps/chernobyl/atlas2.webp`
+                `${resources}/maps/chernobyl/atlas2x.webp`
             ]
         },
         silence: {
@@ -110,6 +110,160 @@ export default {
             from: `${resourceUrl}/0/16723/205/216/30040001474064`,
             to: [
                 `${resources}/maps/matchmaking/boynya/atlas.webp`,
+            ]
+        },
+        brest_mm: {
+            from: `${resourceUrl}/0/16723/201/102/30023266642565`,
+            to: [
+                `${resources}/maps/matchmaking/brest/atlas.webp`,
+            ]
+        },
+        god_2042_mm: {
+            from: `${resourceUrl}/0/16723/207/36/30023320202260`,
+            to: [
+                `${resources}/maps/matchmaking/god_2042/atlas.webp`,
+                `${resources}/maps/matchmaking/god_2042/atlas2.webp`,
+            ]
+        },
+        dyusseldorf_mm: {
+            from: `${resourceUrl}/567/105615/246/105/30023272406661`,
+            to: [
+                `${resources}/maps/matchmaking/dyusseldorf/atlas.webp`,
+                `${resources}/maps/matchmaking/dyusseldorf/atlas2.webp`,
+            ]
+        },
+        javoronki_mm: {
+            from: `${resourceUrl}/567/105610/267/214/30023314414431`,
+            to: [
+                `${resources}/maps/matchmaking/javoronki/atlas.webp`,
+                `${resources}/maps/matchmaking/javoronki/atlas2.webp`,
+            ]
+        },
+        kungur_mm: {
+            from: `${resourceUrl}/0/16723/200/26/30023277145325`,
+            to: [
+                `${resources}/maps/matchmaking/kungur/atlas.webp`,
+                `${resources}/maps/matchmaking/kungur/atlas2.webp`,
+            ]
+        },
+        magystral_mm: {
+            from: `${resourceUrl}/545/151420/315/170/30023301213213`,
+            to: [
+                `${resources}/maps/matchmaking/magystral/atlas.webp`,
+                `${resources}/maps/matchmaking/magystral/atlas2.webp`,
+            ]
+        },
+        molotov_mm: {
+            from: `${resourceUrl}/553/177367/2/10/30023302564060`,
+            to: [
+                `${resources}/maps/matchmaking/molotov/atlas.webp`,
+                `${resources}/maps/matchmaking/molotov/atlas2.webp`,
+            ]
+        },
+        mosty_mm: {
+            from: `${resourceUrl}/0/16723/203/314/30023267247553`,
+            to: [
+                `${resources}/maps/matchmaking/mosty/atlas.webp`,
+                `${resources}/maps/matchmaking/mosty/atlas2.webp`,
+            ]
+        },
+        osa_mm: {
+            from: `${resourceUrl}/0/16723/200/336/30023303627454`,
+            to: [
+                `${resources}/maps/matchmaking/osa/atlas.webp`,
+                `${resources}/maps/matchmaking/osa/atlas2.webp`,
+            ]
+        },
+        parma_mm: {
+            from: `${resourceUrl}/545/151420/363/31/30023305150431`,
+            to: [
+                `${resources}/maps/matchmaking/parma/atlas.webp`,
+            ]
+        },
+        perekrestok_mm: {
+            from: `${resourceUrl}/553/177311/244/366/30370645264772`,
+            to: [
+                `${resources}/maps/matchmaking/perekrestok/atlas.webp`,
+            ]
+        },
+        plato_mm: {
+            from: `${resourceUrl}/0/16723/206/354/30072001557752`,
+            to: [
+                `${resources}/maps/matchmaking/plato/atlas.webp`,
+            ]
+        },
+        polygon_mm: {
+            from: `${resourceUrl}/0/16723/204/306/30023305546105`,
+            to: [
+                `${resources}/maps/matchmaking/polygon/atlas.webp`,
+                `${resources}/maps/matchmaking/polygon/atlas2.webp`,
+            ]
+        },
+        prostor_mm: {
+            from: `${resourceUrl}/567/105606/23/0/30040003275746`,
+            to: [
+                `${resources}/maps/matchmaking/prostor/atlas.webp`,
+            ]
+        },
+        pustynya_mm: {
+            from: `${resourceUrl}/0/114/137/366/30023231521655`,
+            to: [
+                `${resources}/maps/matchmaking/pustynya/atlas.webp`,
+            ]
+        },
+        red_alert_mm: {
+            from: `${resourceUrl}/0/16723/201/330/30023306375133`,
+            to: [
+                `${resources}/maps/matchmaking/red_alert/atlas.webp`,
+            ]
+        },
+        solikamsk_mm: {
+            from: `${resourceUrl}/0/16723/206/210/30023315226203`,
+            to: [
+                `${resources}/maps/matchmaking/solikamsk/atlas.webp`,
+            ]
+        },
+        silence_mm: {
+            from: `${resourceUrl}/0/16723/202/156/30023313462007`,
+            to: [
+                `${resources}/maps/matchmaking/silence/atlas.webp`,
+                `${resources}/maps/matchmaking/silence/atlas2.webp`,
+            ]
+        },
+        tribyut_mm: {
+            from: `${resourceUrl}/0/16723/177/34/30102303112114`,
+            to: [
+                `${resources}/maps/matchmaking/tribyut/atlas.webp`,
+                `${resources}/maps/matchmaking/tribyut/atlas2.webp`,
+                `${resources}/maps/matchmaking/tribyut/atlas3.webp`,
+            ]
+        },
+        templ_mm: {
+            from: `${resourceUrl}/567/105636/265/156/30023300241335`,
+            to: [
+                `${resources}/maps/matchmaking/templ/atlas.webp`,
+                `${resources}/maps/matchmaking/templ/atlas2.webp`,
+            ]
+        },
+        chernobyl_mm: {
+            from: `${resourceUrl}/552/176420/31/341/30023270123316`,
+            to: [
+                `${resources}/maps/matchmaking/chernobyl/atlas.webp`,
+                `${resources}/maps/matchmaking/chernobyl/atlas2.webp`,
+            ]
+        },
+        /*chernushka_mm: {
+            from: `${resourceUrl}/552/176420/31/345/30023304734447`,
+            to: [
+                `${resources}/maps/matchmaking/chernushka/atlas.webp`,
+                `${resources}/maps/matchmaking/chernushka/atlas2.webp`,
+                `${resources}/maps/matchmaking/chernushka/atlas3.webp`,
+            ]
+        },*/
+        shosse_mm: {
+            from: `${resourceUrl}/0/16723/202/12/30023274377673`,
+            to: [
+                `${resources}/maps/matchmaking/shosse/atlas.webp`,
             ]
         },
     },
