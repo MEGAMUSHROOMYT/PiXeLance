@@ -192,13 +192,13 @@ export default {
                 `${resources}/maps/matchmaking/plato/atlas.webp`,
             ]
         },
-        polygon_mm: {
+        /*polygon_mm: {
             from: `${resourceUrl}/0/16723/204/306/30023305546105`,
             to: [
                 `${resources}/maps/matchmaking/polygon/atlas.webp`,
                 `${resources}/maps/matchmaking/polygon/atlas2.webp`,
             ]
-        },
+        },*/
         prostor_mm: {
             from: `${resourceUrl}/567/105606/23/0/30040003275746`,
             to: [
