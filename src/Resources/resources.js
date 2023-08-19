@@ -211,12 +211,12 @@ export default {
                 `${resources}/maps/matchmaking/pustynya/atlas.webp`,
             ]
         },
-        red_alert_mm: {
+        /*red_alert_mm: {
             from: `${resourceUrl}/0/16723/201/330/30023306375133`,
             to: [
                 `${resources}/maps/matchmaking/red_alert/atlas.webp`,
             ]
-        },
+        },*/
         solikamsk_mm: {
             from: `${resourceUrl}/0/16723/206/210/30023315226203`,
             to: [
