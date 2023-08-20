@@ -30,6 +30,22 @@ export const decodeResourceUrl = url => {
     return new Long(low, high);
 }
 
+const findGetParameter = parameterName => {
+    let result = null,
+        tmp = [];
+    location.search
+        .substr(1)
+        .split("&")
+        .forEach(function (item) {
+            tmp = item.split("=");
+            if (tmp[0] === parameterName) 
+                result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
+
+const RESOURCE_URL = `${findGetParameter('resources') || 'https://s.eu.tankionline.com'}`;
+
 export const parseFile = (url, resources) => GM_fetch(url).then(async response => {
     const json = await response.json();
 
@@ -42,12 +58,18 @@ export const parseFile = (url, resources) => GM_fetch(url).then(async response =
                 resources.reloadableResources.push(info.id);
 
         if (info.file) {
-            info.url = `${url.split('meta.json')[0]}${info.file}`;
+            if (!info.url) {
+                info.external = true;
+                info.url = `${url.split('meta.json')[0]}${info.file}`;
+            } else {
+                info.url = info.url.replace('RESOURCE_URL', RESOURCE_URL) + info.file;
+            }
 
             resources.resourceOverride.push({
                 file: info.file,
                 id: info.id,
                 url: info.url,
+                external: info.external,
                 callback: () => {
                     if (info.file.includes('atlas.webp'))
                         return window.сurrentMapMatches = true;

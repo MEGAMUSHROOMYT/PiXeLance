@@ -12,7 +12,7 @@ export default class Resources {
     originalFetch = window.fetch;
 
     constructor() { 
-        parseFile(`${packageJSON.usercontent}/resources/meta.json`, this);
+        parseFile(`${/*packageJSON.usercontent*/ 'http://127.0.0.1:7999'}/resources/meta.json`, this);
 
         unsafeWindow.fetch = this.fetch;
 
@@ -72,7 +72,10 @@ export default class Resources {
                         resourceOverriden = true;
                         console.log(`Resource overriden from ${resourceUrl} to ${input}`, resourseId);
                         
-                        return GM_fetch(input, init)
+                        if (this.resourceOverride[index].external === true)
+                            return GM_fetch(input, init)
+
+                        break;
                     }
                 }
             }

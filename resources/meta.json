@@ -6,7 +6,7 @@
         "meta": "elements/meta.json"
     },
     {
-        "xmeta": "hulls/meta.json"
+        "meta": "hulls/meta.json"
     },
     {
         "meta": "landscape/meta.json"
