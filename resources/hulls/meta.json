@@ -1,0 +1,23 @@
+[
+    {
+        "meta": "dictator/meta.json"
+    },
+    {
+        "meta": "hornet/meta.json"
+    },
+    {
+        "meta": "hunter/meta.json"
+    },
+    {
+        "meta": "mammoth/meta.json"
+    },
+    {
+        "meta": "titan/meta.json"
+    },
+    {
+        "meta": "viking/meta.json"
+    },
+    {
+        "meta": "wasp/meta.json"
+    }
+]

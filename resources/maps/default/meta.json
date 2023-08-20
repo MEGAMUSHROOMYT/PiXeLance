@@ -1,0 +1,26 @@
+[
+    {
+        "meta": "berlin/meta.json"
+    },
+    {
+        "meta": "chernobyl/meta.json"
+    },
+    {
+        "meta": "highland/meta.json"
+    },
+    {
+        "meta": "island/meta.json"
+    },
+    {
+        "meta": "sandbox/meta.json"
+    },
+    {
+        "meta": "serpuhov/meta.json"
+    },
+    {
+        "meta": "short-bridge/meta.json"
+    },
+    {
+        "meta": "silence/meta.json"
+    }
+]

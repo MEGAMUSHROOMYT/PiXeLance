@@ -1,0 +1,35 @@
+[
+    {
+        "meta": "firebird/meta.json"
+    },
+    {
+        "meta": "freeze/meta.json"
+    },
+    {
+        "meta": "hammer/meta.json"
+    },
+    {
+        "meta": "isida/meta.json"
+    },
+    {
+        "meta": "railgun/meta.json"
+    },
+    {
+        "meta": "ricochet/meta.json"
+    },
+    {
+        "meta": "shaft/meta.json"
+    },
+    {
+        "meta": "smoky/meta.json"
+    },
+    {
+        "meta": "tesla/meta.json"
+    },
+    {
+        "meta": "thunder/meta.json"
+    },
+    {
+        "meta": "twins/meta.json"
+    }
+]

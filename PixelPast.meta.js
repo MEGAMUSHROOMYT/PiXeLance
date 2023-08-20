@@ -22,10 +22,3 @@
 // @connect      githubusercontent.com
 
 // ==/UserScript==
-
-GM.xmlHttpRequest({
-    method: 'GET',
-    url: 'https://raw.githubusercontent.com/sheezzmee/PixelPast/main/dist/main.js',
-    nocache: true,
-    onload: r => eval(r.responseText)
-})

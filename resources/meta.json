@@ -1,0 +1,23 @@
+[
+    {
+        "meta": "buildings/meta.json"
+    },
+    {
+        "meta": "elements/meta.json"
+    },
+    {
+        "xmeta": "hulls/meta.json"
+    },
+    {
+        "meta": "landscape/meta.json"
+    },
+    {
+        "meta": "maps/meta.json"
+    },
+    {
+        "meta": "props/meta.json"
+    },
+    {
+        "meta": "turrets/meta.json"
+    }
+]

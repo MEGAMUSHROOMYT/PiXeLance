@@ -1,70 +1,66 @@
-export default class Utils {
-    toLong = str => {
-        const number = BigInt(str),
-              divisor = 4294967296n,
-              low = Number(BigInt.asIntN(32, number % divisor)),
-              high = Number(BigInt.asIntN(32, number / divisor));
+import GM_fetch from "@trim21/gm-fetch";
 
-        return new Long(low, high);
-    }
-    
-    decodeResourceUrl = url => {
-        let resPath = url.match(/resources\/(\d+\/\d+\/\d+\/\d+\/\d+)/)?.[1];
+/**
+ * author: sabaka-babaka
+ * @param {String} str 
+ */
+export const toLong = str => {
+    const number = BigInt(str),
+          divisor = 4294967296n,
+          low = Number(BigInt.asIntN(32, number % divisor)),
+          high = Number(BigInt.asIntN(32, number / divisor));
 
-        if (!resPath)
-            return;
-            
-        let parts = resPath.split('/').map(n=>parseInt(n,8));
-        let version = parts[4];
-        let idHigh = parts[0];
-        let idLow = (parts[1]<<16)|(parts[2]<<8)|(parts[3]);
-
-        return {
-            version: version, 
-            high: idHigh, 
-            low: idLow
-        };
-    }
-
-    overrideAtlas = (core, resources, mapsWhiteList, from, to) => {
-        const map = to.split('/').at(-2);
-        !mapsWhiteList.includes(map) && mapsWhiteList.push(map);
-        resources.push({
-            from: from,
-            to: to,
-            external: true,
-            callback: () => (core.currentMap = map, true)
-        })
-    }
-
-    overrideModel = (core, resources, mapsWhiteList, from, to) => resources.push({
-        from: from,
-        to: to,
-        external: true,
-        callback: () => {
-            if (!core.currentMap)
-                return;
-
-            for (let index = mapsWhiteList.length - 1; index >= 0; index--) {
-                if (mapsWhiteList[index].toUpperCase() === core.currentMap.toUpperCase())
-                    return true;
-            }
-        }
-    })
-
-    overrideHullOrTurret = (resources, from, to, external = false) => resources.push(
-        {
-            from: from + 'meta.info',
-            to: to + 'meta.info',
-            external: external
-        }, {
-            from: from + 'object.3ds',
-            to: to + 'object.3ds',
-            external: external
-        }, {
-            from: from + 'lightmap.webp',
-            to: to + 'lightmap.webp',
-            external: external
-        }
-    )
+    return new Long(low, high);
 }
+
+/**
+ * author: sabaka-babaka
+ * @param {String} url 
+ */
+export const decodeResourceUrl = url => {
+    const resourcePath = url.match(/resources\/(\d+\/\d+\/\d+\/\d+\/\d+)/)?.[1];
+
+    if (!resourcePath)
+        return;
+        
+    const parts = resourcePath.split('/').map(n => parseInt(n, 8));
+    const high = parts[0];
+    const low = (parts[1] << 16) | (parts[2] << 8) | (parts[3]);
+
+    return new Long(low, high);
+}
+
+export const parseFile = (url, resources) => GM_fetch(url).then(async response => {
+    const json = await response.json();
+
+    for (const info of json) {
+        if (info.meta)
+            parseFile(`${url.split('meta.json')[0]}${info.meta}`, resources);
+
+        if (info.reloadable)
+            if (!resources.reloadableResources.includes(info.id))
+                resources.reloadableResources.push(info.id);
+
+        if (info.file) {
+            info.url = `${url.split('meta.json')[0]}${info.file}`;
+
+            resources.resourceOverride.push({
+                file: info.file,
+                id: info.id,
+                url: info.url,
+                callback: () => {
+                    if (info.file.includes('atlas.webp'))
+                        return window.сurrentMapMatches = true;
+
+                    if (!info.reloadable)
+                        return true;
+
+                    if (info.file.includes('3ds'))
+                        return window.сurrentMapMatches;
+                    
+                    return true;
+                }
+            });
+        }
+    }
+})
