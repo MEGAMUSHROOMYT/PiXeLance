@@ -18,7 +18,7 @@ export const toLong = str => {
  * @param {String} url 
  */
 export const decodeResourceUrl = url => {
-    const resourcePath = url.match(/resources\/(\d+\/\d+\/\d+\/\d+\/\d+)/)?.[1];
+    const resourcePath = url.match(/\/(\d+\/\d+\/\d+\/\d+\/\d+)/)?.[1];
 
     if (!resourcePath)
         return;
