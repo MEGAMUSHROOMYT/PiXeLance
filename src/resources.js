@@ -2,7 +2,7 @@ import { parseFile, toLong, decodeResourceUrl } from './utils.js';
 import reducer from './lib/reducer.js';
 import hook from './lib/setMetadataOf.js';
 import GM_fetch from "@trim21/gm-fetch";
-import packageJSON from '../../package.json'
+import packageJSON from '../package.json'
 
 export default class Resources {
     resourceOverride = [];
