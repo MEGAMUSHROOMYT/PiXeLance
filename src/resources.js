@@ -4,6 +4,12 @@ import hook from './lib/setMetadataOf.js';
 import GM_fetch from "@trim21/gm-fetch";
 import packageJSON from '../package.json'
 
+class GameObjectNotFoundError extends Error {
+    constructor(objectName) {
+        super(`Game object not found ${objectName || '<unnamed>'}`);
+    }
+}
+
 export default class Resources {
     resourceOverride = [];
     resources = null;
@@ -20,37 +26,44 @@ export default class Resources {
             const __this__ = this;
             
             unsafeWindow.Long = hook.getObjectOnce('Long');
+            if (!unsafeWindow.Long)
+                throw new GameObjectNotFoundError('Long');
 
             const ResourceRegistryCommonImpl = hook.getObjectOnce('ResourceRegistryCommonImpl');
+            if (!ResourceRegistryCommonImpl) {
+                throw new GameObjectNotFoundError('ResourceRegistryCommonImpl');
+            }
+            {
+                const unknownFunctionName = Object.keys(ResourceRegistryCommonImpl.prototype)?.[2];
+                const unknownFunctionCall = ResourceRegistryCommonImpl.prototype[unknownFunctionName];
 
-            if (ResourceRegistryCommonImpl) {
-                const func = Object.entries(ResourceRegistryCommonImpl.prototype)[2][0];
-                ResourceRegistryCommonImpl.prototype[`${func}_copy`] = ResourceRegistryCommonImpl.prototype[func];
-
-                ResourceRegistryCommonImpl.prototype[func] = function () {
+                ResourceRegistryCommonImpl.prototype[unknownFunctionName] = function (...args) {
                     if (!__this__.resources) {
                         __this__.resources = Object.values(this)[2];
-                        __this__.resources.__proto__.remove = Object.values(__this__.resources.__proto__)[8];
-                        __this__.resources.__proto__.get = Object.values(__this__.resources.__proto__)[3];
+                        const resourcesPrototype = Object.getPrototypeOf(__this__.resources);
+                        resourcesPrototype.remove = Object.values(resourcesPrototype)[8];
+                        resourcesPrototype.get = Object.values(resourcesPrototype)[3];
                     }
-                    return this[`${func}_copy`].apply(this, arguments);
+                    return unknownFunctionCall.apply(this, args);
                 }
             }
-            
+
             const World = hook.getObjectOnce('World');
+            if (!World) {
+                throw new GameObjectNotFoundError('World');
+            }
+            {
+                const resetName = Object.keys(World.prototype)?.[35];
+                const resetCall = World.prototype[resetName];
 
-            if (World) {
-                const reset = Object.entries(World.prototype)[35][0];
-                World.prototype[`${reset}_copy`] = World.prototype[reset];
-
-                World.prototype[reset] = function() {
+                World.prototype[resetName] = function(...args) {
                     __this__.reloadableResources.forEach(resource => {
                         resource = toLong(resource);
                         while (__this__.resources.get(resource))
                             __this__.resources.remove(resource);
                     })
                     window.сurrentMapMatches = false;
-                    return this[`${reset}_copy`].apply(this, arguments);
+                    return resetCall.apply(this, args);
                 }
             }
         })
@@ -62,7 +75,7 @@ export default class Resources {
                 resourceUrl = input,
                 resourseId = decodeResourceUrl(resourceUrl)?.toString();
 
-            if (resourseId) {
+            if (resourseId && unsafeWindow.Long) {
                 for (let index = this.resourceOverride.length - 1; index >= 0; index--) {
                     if (resourseId === this.resourceOverride[index].id && input.search(this.resourceOverride[index].file) !== -1) {
                         if (this.resourceOverride[index].callback && this.resourceOverride[index].callback() !== true)

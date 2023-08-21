@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PixelPast
 
-// @version      1.1.6
+// @version      1.1.7
 // @description  PixelPast is a free and open source mod for the game "Tanki Online"
 // @author       sheezzmee
 

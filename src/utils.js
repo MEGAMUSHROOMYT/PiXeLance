@@ -2,14 +2,12 @@ import GM_fetch from "@trim21/gm-fetch";
 
 /**
  * author: sabaka-babaka
- * @param {String} str 
+ * @param {String} numberStr 
  */
-export const toLong = str => {
-    const number = BigInt(str),
-          divisor = 4294967296n,
-          low = Number(BigInt.asIntN(32, number % divisor)),
-          high = Number(BigInt.asIntN(32, number / divisor));
-
+export const toLong = numberStr => {
+    const number = BigInt(numberStr),
+          low = Number(BigInt.asIntN(32, number)),
+          high = Number(BigInt.asIntN(32, number >> 32n));
     return new Long(low, high);
 }
 
