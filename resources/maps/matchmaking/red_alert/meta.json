@@ -1,6 +1,1 @@
-[
-    {
-        "file": "atlas.webp",
-        "id": "500400600"
-    }
-]
+{"id": "500400600", "files": ["atlas.webp"]}

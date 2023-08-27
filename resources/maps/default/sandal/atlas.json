@@ -1,0 +1,707 @@
+[
+    {
+        "original": "0/114/120/327/30023342757254/atlas.webp",
+        "Slopes Rises": {
+            "slope_2": {
+                "height": 128,
+                "width": 128,
+                "x": 3936,
+                "y": 3936
+            },
+            "rise_2": {
+                "height": 512,
+                "width": 512,
+                "x": 32,
+                "y": 1376
+            },
+            "grass": {
+                "height": 128,
+                "width": 128,
+                "x": 3936,
+                "y": 3744
+            },
+            "slope_1": {
+                "height": 128,
+                "width": 128,
+                "x": 3936,
+                "y": 3552
+            },
+            "rise_5": {
+                "height": 512,
+                "width": 512,
+                "x": 1120,
+                "y": 2464
+            }
+        },
+        "Cliffs": {
+            "cliff_4": {
+                "height": 256,
+                "width": 256,
+                "x": 1376,
+                "y": 32
+            },
+            "cliff_c2": {
+                "height": 256,
+                "width": 256,
+                "x": 1184,
+                "y": 1632
+            },
+            "cliff_0": {
+                "height": 256,
+                "width": 256,
+                "x": 1184,
+                "y": 1312
+            },
+            "cliff_1": {
+                "height": 256,
+                "width": 256,
+                "x": 1184,
+                "y": 992
+            },
+            "cliff_co": {
+                "height": 256,
+                "width": 256,
+                "x": 1184,
+                "y": 672
+            },
+            "cliff_2": {
+                "height": 256,
+                "width": 256,
+                "x": 1184,
+                "y": 352
+            }
+        },
+        "Small Bridge": {
+            "sm_br_1": {
+                "height": 1024,
+                "width": 1024,
+                "x": 32,
+                "y": 3040
+            },
+            "sm_br_1_gr": {
+                "height": 1024,
+                "width": 1024,
+                "x": 32,
+                "y": 1952
+            }
+        },
+        "City Builds": {
+            "fab_tow": {
+                "height": 512,
+                "width": 512,
+                "x": 2784,
+                "y": 3552
+            }
+        },
+        "NuBu 4": {
+            "nubu_4": {
+                "height": 1024,
+                "width": 1024,
+                "x": 1120,
+                "y": 3040
+            }
+        },
+        "Village Builds": {
+            "vilhou4": {
+                "height": 512,
+                "width": 512,
+                "x": 32,
+                "y": 224
+            },
+            "vilhou2": {
+                "height": 512,
+                "width": 512,
+                "x": 3360,
+                "y": 3552
+            },
+            "vilhou3": {
+                "height": 512,
+                "width": 512,
+                "x": 608,
+                "y": 1376
+            }
+        },
+        "NuBu 9": {
+            "nubu_9": {
+                "height": 512,
+                "width": 512,
+                "x": 608,
+                "y": 800
+            }
+        },
+        "City Buildings": {
+            "smhouse5": {
+                "height": 512,
+                "width": 512,
+                "x": 608,
+                "y": 224
+            }
+        },
+        "Promotion": {
+            "shit_0": {
+                "height": 512,
+                "width": 512,
+                "x": 1696,
+                "y": 2464
+            }
+        },
+        "Bush": {
+            "bush1": {
+                "height": 136,
+                "width": 169,
+                "x": 3872,
+                "y": 3032
+            },
+            "wood1": {
+                "height": 255,
+                "width": 232,
+                "x": 2144,
+                "y": 2081
+            },
+            "bush2": {
+                "height": 97,
+                "width": 132,
+                "x": 2144,
+                "y": 384
+            }
+        },
+        "Bush 3D": {
+            "bush1": {
+                "height": 512,
+                "width": 512,
+                "x": 1568,
+                "y": 1888
+            },
+            "bush2": {
+                "height": 512,
+                "width": 512,
+                "x": 2656,
+                "y": 2976
+            }
+        },
+        "Concrete Tiles": {
+            "pave_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2144,
+                "y": 1313
+            },
+            "pave_2": {
+                "height": 128,
+                "width": 128,
+                "x": 3872,
+                "y": 2840
+            },
+            "pave_3": {
+                "height": 128,
+                "width": 128,
+                "x": 2144,
+                "y": 1121
+            },
+            "pave_4": {
+                "height": 128,
+                "width": 128,
+                "x": 3872,
+                "y": 2648
+            },
+            "pg_corner_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2144,
+                "y": 929
+            },
+            "pg_corner_2": {
+                "height": 128,
+                "width": 128,
+                "x": 3872,
+                "y": 2456
+            },
+            "pg_incor_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2144,
+                "y": 737
+            },
+            "pg_trans_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2144,
+                "y": 545
+            },
+            "pg_trans_2": {
+                "height": 128,
+                "width": 128,
+                "x": 3872,
+                "y": 2264
+            },
+            "pg_trans_3": {
+                "height": 128,
+                "width": 128,
+                "x": 2336,
+                "y": 1313
+            },
+            "pavement_3x2_1": {
+                "height": 256,
+                "width": 384,
+                "x": 1120,
+                "y": 2144
+            },
+            "pavement_3x2_2": {
+                "height": 256,
+                "width": 384,
+                "x": 2208,
+                "y": 3232
+            },
+            "concrete_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2336,
+                "y": 1121
+            },
+            "concrete_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2336,
+                "y": 929
+            },
+            "concrete_3": {
+                "height": 128,
+                "width": 128,
+                "x": 2336,
+                "y": 737
+            },
+            "concrete_4": {
+                "height": 128,
+                "width": 128,
+                "x": 2336,
+                "y": 545
+            },
+            "pc_corner_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2340,
+                "y": 353
+            },
+            "pc_corner_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2016,
+                "y": 192
+            },
+            "pc_incor_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2440,
+                "y": 2144
+            },
+            "pc_trans_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2632,
+                "y": 2144
+            },
+            "pc_trans_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2824,
+                "y": 2144
+            },
+            "pc_trans_3": {
+                "height": 128,
+                "width": 128,
+                "x": 3016,
+                "y": 2144
+            },
+            "pavement_2x1_1": {
+                "height": 128,
+                "width": 256,
+                "x": 2208,
+                "y": 3040
+            },
+            "pavement_2x1_2": {
+                "height": 128,
+                "width": 256,
+                "x": 1504,
+                "y": 416
+            },
+            "pavement_2x1_3": {
+                "height": 128,
+                "width": 256,
+                "x": 1824,
+                "y": 416
+            },
+            "pavement_2x1_4": {
+                "height": 128,
+                "width": 256,
+                "x": 2144,
+                "y": 1889
+            },
+            "pavement_3x1_1": {
+                "height": 128,
+                "width": 384,
+                "x": 32,
+                "y": 32
+            },
+            "pavement_3x1_2": {
+                "height": 128,
+                "width": 384,
+                "x": 480,
+                "y": 32
+            },
+            "pc_turn": {
+                "height": 256,
+                "width": 256,
+                "x": 3232,
+                "y": 2912
+            },
+            "pc_turn_2": {
+                "height": 256,
+                "width": 256,
+                "x": 3552,
+                "y": 2912
+            },
+            "pavement_2x2_1": {
+                "height": 256,
+                "width": 256,
+                "x": 1504,
+                "y": 1568
+            },
+            "pavement_2x2_2": {
+                "height": 256,
+                "width": 256,
+                "x": 1504,
+                "y": 1248
+            },
+            "grass2_1_1": {
+                "height": 128,
+                "width": 256,
+                "x": 2144,
+                "y": 1697
+            },
+            "grass2_1_2": {
+                "height": 128,
+                "width": 256,
+                "x": 2144,
+                "y": 1505
+            }
+        },
+        "Grass Tiles": {
+            "grass2_1_1": {
+                "height": 128,
+                "width": 256,
+                "x": 2144,
+                "y": 1697
+            },
+            "grass2_1_2": {
+                "height": 128,
+                "width": 256,
+                "x": 2144,
+                "y": 1505
+            },
+            "dark_gravel": {
+                "height": 128,
+                "width": 128,
+                "x": 2464,
+                "y": 1952
+            },
+            "dd_cor_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2464,
+                "y": 1760
+            },
+            "dd_cor_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2656,
+                "y": 1952
+            },
+            "dd_cor_3": {
+                "height": 128,
+                "width": 128,
+                "x": 2464,
+                "y": 1568
+            },
+            "dd_cor_4": {
+                "height": 128,
+                "width": 128,
+                "x": 2656,
+                "y": 1760
+            },
+            "dd_incor_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2848,
+                "y": 1952
+            },
+            "dd_incor_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2656,
+                "y": 1568
+            },
+            "dd_tr_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2848,
+                "y": 1760
+            },
+            "dd_tr_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2848,
+                "y": 1568
+            },
+            "dd_tr_3": {
+                "height": 128,
+                "width": 128,
+                "x": 3040,
+                "y": 1952
+            },
+            "dd_tr_4": {
+                "height": 128,
+                "width": 128,
+                "x": 3040,
+                "y": 1760
+            },
+            "dg_cor_1": {
+                "height": 128,
+                "width": 128,
+                "x": 3040,
+                "y": 1568
+            },
+            "dg_cor_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2528,
+                "y": 1376
+            },
+            "dg_cor_3": {
+                "height": 128,
+                "width": 128,
+                "x": 2528,
+                "y": 1184
+            },
+            "dg_cor_4": {
+                "height": 128,
+                "width": 128,
+                "x": 2720,
+                "y": 1376
+            },
+            "dg_incor_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2528,
+                "y": 992
+            },
+            "dg_incor_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2720,
+                "y": 1184
+            },
+            "dg_tr_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2912,
+                "y": 1376
+            },
+            "dg_tr_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2528,
+                "y": 800
+            },
+            "dg_tr_3": {
+                "height": 128,
+                "width": 128,
+                "x": 2720,
+                "y": 992
+            },
+            "dg_tr_4": {
+                "height": 128,
+                "width": 128,
+                "x": 2912,
+                "y": 1184
+            },
+            "grass_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2528,
+                "y": 608
+            },
+            "grass_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2720,
+                "y": 800
+            },
+            "grass_3": {
+                "height": 128,
+                "width": 128,
+                "x": 2912,
+                "y": 992
+            },
+            "grass_4": {
+                "height": 128,
+                "width": 128,
+                "x": 2720,
+                "y": 608
+            },
+            "grass_railroad": {
+                "height": 128,
+                "width": 128,
+                "x": 2912,
+                "y": 800
+            },
+            "gravel": {
+                "height": 128,
+                "width": 128,
+                "x": 2912,
+                "y": 608
+            },
+            "grass2_2_1": {
+                "height": 256,
+                "width": 256,
+                "x": 1824,
+                "y": 1568
+            },
+            "grass2_2_2": {
+                "height": 256,
+                "width": 256,
+                "x": 1504,
+                "y": 928
+            },
+            "grass2_2_3": {
+                "height": 256,
+                "width": 256,
+                "x": 1824,
+                "y": 1248
+            },
+            "grass2_2_4": {
+                "height": 256,
+                "width": 256,
+                "x": 1504,
+                "y": 608
+            },
+            "grass2_2_5": {
+                "height": 256,
+                "width": 256,
+                "x": 1824,
+                "y": 928
+            },
+            "grass3_1_1": {
+                "height": 128,
+                "width": 384,
+                "x": 928,
+                "y": 32
+            },
+            "grass3_1_2": {
+                "height": 128,
+                "width": 384,
+                "x": 1120,
+                "y": 1952
+            },
+            "grass3_2_1": {
+                "height": 256,
+                "width": 384,
+                "x": 3232,
+                "y": 3232
+            },
+            "grass3_2_2": {
+                "height": 256,
+                "width": 384,
+                "x": 3680,
+                "y": 3232
+            }
+        },
+        "Roadblock": {
+            "fence512": {
+                "height": 512,
+                "width": 512,
+                "x": 2208,
+                "y": 3552
+            },
+            "elmvv512": {
+                "height": 512,
+                "width": 512,
+                "x": 32,
+                "y": 800
+            }
+        },
+        "Concrete Walls": {
+            "wall_e1": {
+                "height": 256,
+                "width": 256,
+                "x": 1824,
+                "y": 608
+            },
+            "wall_e1_g": {
+                "height": 256,
+                "width": 256,
+                "x": 2272,
+                "y": 2720
+            },
+            "wall_st": {
+                "height": 256,
+                "width": 256,
+                "x": 2272,
+                "y": 2400
+            },
+            "wall_st_g": {
+                "height": 256,
+                "width": 256,
+                "x": 2592,
+                "y": 2656
+            },
+            "wall_3w": {
+                "height": 256,
+                "width": 256,
+                "x": 2912,
+                "y": 2656
+            },
+            "wall_3w_g": {
+                "height": 256,
+                "width": 256,
+                "x": 2592,
+                "y": 2336
+            },
+            "wall_cr": {
+                "height": 256,
+                "width": 256,
+                "x": 2912,
+                "y": 2336
+            },
+            "wall_cr_g": {
+                "height": 256,
+                "width": 256,
+                "x": 3232,
+                "y": 2592
+            },
+            "wall_e3": {
+                "height": 256,
+                "width": 256,
+                "x": 3552,
+                "y": 2592
+            },
+            "wall_e3_g": {
+                "height": 256,
+                "width": 256,
+                "x": 3232,
+                "y": 2272
+            },
+            "wall_e2": {
+                "height": 256,
+                "width": 256,
+                "x": 3552,
+                "y": 2272
+            },
+            "wall_e2_g": {
+                "height": 256,
+                "width": 256,
+                "x": 1696,
+                "y": 96
+            }
+        }
+    }
+]

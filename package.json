@@ -9,7 +9,7 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
-  "version": "1.1.7",
+  "version": "1.2.0",
   "name": "PixelPast",
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "watch": "webpack --watch"
   },
   "dependencies": {
-    "@trim21/gm-fetch": "^0.1.15"
+    "@trim21/gm-fetch": "^0.1.15",
+    "long": "^5.2.3"
   }
 }

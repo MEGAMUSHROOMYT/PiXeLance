@@ -1,14 +1,1 @@
-[
-    {
-        "file": "atlas.webp",
-        "id": "1612954515293"
-    },
-    {
-        "file": "atlas2.webp",
-        "id": "1612954515293"
-    },
-    {
-        "file": "atlas3.webp",
-        "id": "1612954515293"
-    }
-]
+{"id": "1612954515293", "files": ["atlas.webp", "atlas2.webp", "atlas3.webp"]}

@@ -1,26 +1,8 @@
-[
-    {
-        "file": "meta.info",
-        "id": "1608878797828"
-    },
-    {
-        "file": "lightmap.webp",
-        "id": "1608878797828"
-    },
-    {
-        "file": "object.3ds",
-        "id": "1608878797828"
-    },
-    {
-        "file": "meta.info",
-        "id": "1616416833547"
-    },
-    {
-        "file": "lightmap.webp",
-        "id": "1616416833547"
-    },
-    {
-        "file": "object.3ds",
-        "id": "1616416833547"
-    }
-]
+{
+	"id": "1608878797828",
+	"files": [
+		"meta.info",
+		"lightmap.webp",
+		"object.3ds"
+	]
+}

@@ -1,14 +1,1 @@
-[
-    {
-        "meta": "default/meta.json"
-    },
-    {
-        "meta": "default_winter/meta.json"
-    },
-    {
-        "meta": "matchmaking/meta.json"
-    },
-    {
-        "meta": "matchmaking_winter/meta.json"
-    }
-]
+{"files": ["matchmaking_winter\\meta.json", "default\\meta.json", "default_winter\\meta.json", "matchmaking\\meta.json", "models\\meta.json"]}

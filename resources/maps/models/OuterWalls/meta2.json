@@ -1,0 +1,15 @@
+{
+    "id": "10002111",
+    "reloadable": true,
+    "files": [
+        "ow_1.3ds",
+        "ow_2.3ds",
+        "ow_ai.3ds",
+        "ow_ao.3ds",
+        "ow_t.3ds",
+        "tunnel_1.3ds",
+        "tunnel_2.3ds",
+        "wtile_1.3ds",
+        "wtile_2.3ds"
+    ]
+}

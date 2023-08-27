@@ -1,0 +1,467 @@
+[
+    {
+        "original": "0/114/167/201/30023242726117/atlas.webp",
+        "Industrial Bridge Winter": {
+            "brid_6": {
+                "height": 256,
+                "width": 256,
+                "x": 608,
+                "y": 1696
+            },
+            "brid_61": {
+                "height": 256,
+                "width": 256,
+                "x": 32,
+                "y": 544
+            },
+            "brid_72": {
+                "height": 256,
+                "width": 256,
+                "x": 1248,
+                "y": 1376
+            },
+            "brid_4": {
+                "height": 256,
+                "width": 256,
+                "x": 1568,
+                "y": 1696
+            },
+            "brid_3": {
+                "height": 256,
+                "width": 256,
+                "x": 1248,
+                "y": 1056
+            },
+            "brid_2": {
+                "height": 256,
+                "width": 256,
+                "x": 608,
+                "y": 1376
+            },
+            "brid_24": {
+                "height": 256,
+                "width": 256,
+                "x": 608,
+                "y": 1376
+            },
+            "brid_21": {
+                "height": 256,
+                "width": 256,
+                "x": 928,
+                "y": 1696
+            },
+            "brid_22": {
+                "height": 256,
+                "width": 256,
+                "x": 32,
+                "y": 224
+            },
+            "brid_23": {
+                "height": 256,
+                "width": 256,
+                "x": 608,
+                "y": 1056
+            },
+            "brid_5": {
+                "height": 256,
+                "width": 256,
+                "x": 928,
+                "y": 1376
+            },
+            "brid_7": {
+                "height": 256,
+                "width": 256,
+                "x": 1248,
+                "y": 1696
+            },
+            "brid_71": {
+                "height": 256,
+                "width": 256,
+                "x": 928,
+                "y": 1056
+            }
+        },
+        "Outer Walls Winter": {
+            "wtile_b": {
+                "height": 128,
+                "width": 128,
+                "x": 352,
+                "y": 672
+            },
+            "wtile_b1": {
+                "height": 128,
+                "width": 128,
+                "x": 32,
+                "y": 32
+            },
+            "wtile_b2": {
+                "height": 128,
+                "width": 128,
+                "x": 608,
+                "y": 864
+            },
+            "wtile_s": {
+                "height": 128,
+                "width": 128,
+                "x": 2208,
+                "y": 1184
+            },
+            "ow_2": {
+                "height": 256,
+                "width": 256,
+                "x": 1568,
+                "y": 1376
+            },
+            "ow_21": {
+                "height": 256,
+                "width": 256,
+                "x": 1888,
+                "y": 1696
+            },
+            "ow_22": {
+                "height": 256,
+                "width": 256,
+                "x": 1888,
+                "y": 1696
+            },
+            "ow_23": {
+                "height": 256,
+                "width": 256,
+                "x": 1568,
+                "y": 1056
+            },
+            "ow_24": {
+                "height": 256,
+                "width": 256,
+                "x": 1888,
+                "y": 1376
+            }
+        },
+        "Stuffs Winter": {
+            "tube_4": {
+                "height": 256,
+                "width": 256,
+                "x": 2208,
+                "y": 1696
+            },
+            "tube_3": {
+                "height": 256,
+                "width": 256,
+                "x": 1888,
+                "y": 1056
+            }
+        },
+        "Land Tiles Winter": {
+            "asp_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2528,
+                "y": 1504
+            },
+            "asp_11": {
+                "height": 128,
+                "width": 128,
+                "x": 2848,
+                "y": 1824
+            },
+            "asp_12": {
+                "height": 128,
+                "width": 128,
+                "x": 352,
+                "y": 480
+            },
+            "asp_14": {
+                "height": 128,
+                "width": 128,
+                "x": 544,
+                "y": 672
+            },
+            "asp_2": {
+                "height": 128,
+                "width": 128,
+                "x": 800,
+                "y": 864
+            },
+            "asp_3": {
+                "height": 128,
+                "width": 128,
+                "x": 3040,
+                "y": 1824
+            },
+            "asp_4": {
+                "height": 128,
+                "width": 128,
+                "x": 352,
+                "y": 288
+            },
+            "asp_5": {
+                "height": 128,
+                "width": 128,
+                "x": 544,
+                "y": 480
+            },
+            "asp_6": {
+                "height": 128,
+                "width": 128,
+                "x": 736,
+                "y": 672
+            },
+            "asp_7": {
+                "height": 128,
+                "width": 128,
+                "x": 992,
+                "y": 864
+            },
+            "asp_8": {
+                "height": 128,
+                "width": 128,
+                "x": 3232,
+                "y": 1824
+            },
+            "asp_9": {
+                "height": 128,
+                "width": 128,
+                "x": 544,
+                "y": 288
+            },
+            "beton_1": {
+                "height": 128,
+                "width": 128,
+                "x": 736,
+                "y": 480
+            },
+            "beton_2": {
+                "height": 128,
+                "width": 128,
+                "x": 928,
+                "y": 672
+            },
+            "beton_3": {
+                "height": 128,
+                "width": 128,
+                "x": 1184,
+                "y": 864
+            },
+            "beton_4": {
+                "height": 128,
+                "width": 128,
+                "x": 3424,
+                "y": 1824
+            },
+            "beton_5": {
+                "height": 128,
+                "width": 128,
+                "x": 736,
+                "y": 288
+            },
+            "beton_6": {
+                "height": 128,
+                "width": 128,
+                "x": 928,
+                "y": 480
+            },
+            "beton_7": {
+                "height": 100,
+                "width": 100,
+                "x": 608,
+                "y": 124
+            },
+            "beton_tube": {
+                "height": 128,
+                "width": 128,
+                "x": 1120,
+                "y": 672
+            },
+            "dirt_1": {
+                "height": 128,
+                "width": 128,
+                "x": 1376,
+                "y": 864
+            },
+            "dirt_2": {
+                "height": 128,
+                "width": 128,
+                "x": 3616,
+                "y": 1824
+            },
+            "dirt_3": {
+                "height": 128,
+                "width": 128,
+                "x": 928,
+                "y": 288
+            },
+            "dirt_4": {
+                "height": 128,
+                "width": 128,
+                "x": 1120,
+                "y": 480
+            },
+            "dirt_5": {
+                "height": 128,
+                "width": 128,
+                "x": 1312,
+                "y": 672
+            },
+            "dirt_8": {
+                "height": 128,
+                "width": 128,
+                "x": 1568,
+                "y": 864
+            },
+            "dirt_9": {
+                "height": 128,
+                "width": 128,
+                "x": 3808,
+                "y": 1824
+            },
+            "grass_a1": {
+                "height": 128,
+                "width": 128,
+                "x": 1120,
+                "y": 288
+            },
+            "grass_a2": {
+                "height": 128,
+                "width": 128,
+                "x": 1312,
+                "y": 480
+            },
+            "grass_a3": {
+                "height": 128,
+                "width": 128,
+                "x": 1504,
+                "y": 672
+            },
+            "grass_a4": {
+                "height": 128,
+                "width": 128,
+                "x": 1760,
+                "y": 864
+            },
+            "grass_b1": {
+                "height": 128,
+                "width": 128,
+                "x": 1312,
+                "y": 288
+            },
+            "grass_b2": {
+                "height": 128,
+                "width": 128,
+                "x": 1504,
+                "y": 480
+            },
+            "grass_b3": {
+                "height": 128,
+                "width": 128,
+                "x": 1696,
+                "y": 672
+            },
+            "grass_b4": {
+                "height": 128,
+                "width": 128,
+                "x": 1952,
+                "y": 864
+            },
+            "rail_1": {
+                "height": 128,
+                "width": 128,
+                "x": 1504,
+                "y": 288
+            },
+            "rail_2": {
+                "height": 128,
+                "width": 128,
+                "x": 1696,
+                "y": 480
+            },
+            "road_1": {
+                "height": 128,
+                "width": 128,
+                "x": 1888,
+                "y": 672
+            },
+            "road_2": {
+                "height": 128,
+                "width": 128,
+                "x": 1696,
+                "y": 288
+            },
+            "road_3": {
+                "height": 128,
+                "width": 128,
+                "x": 1888,
+                "y": 480
+            },
+            "road_4": {
+                "height": 128,
+                "width": 128,
+                "x": 1888,
+                "y": 288
+            },
+            "road_6": {
+                "height": 128,
+                "width": 128,
+                "x": 224,
+                "y": 32
+            },
+            "road_8": {
+                "height": 128,
+                "width": 128,
+                "x": 2208,
+                "y": 992
+            },
+            "road_9": {
+                "height": 128,
+                "width": 128,
+                "x": 2400,
+                "y": 1184
+            },
+            "sand_1": {
+                "height": 128,
+                "width": 128,
+                "x": 2400,
+                "y": 992
+            },
+            "sand_2": {
+                "height": 128,
+                "width": 128,
+                "x": 2720,
+                "y": 1504
+            },
+            "sand_3": {
+                "height": 128,
+                "width": 128,
+                "x": 416,
+                "y": 96
+            }
+        },
+        "Industrial Elements Winter": {
+            "contain": {
+                "height": 256,
+                "width": 256,
+                "x": 2208,
+                "y": 1376
+            },
+            "contain2": {
+                "height": 256,
+                "width": 256,
+                "x": 2528,
+                "y": 1696
+            },
+            "watch_to": {
+                "height": 512,
+                "width": 512,
+                "x": 32,
+                "y": 1440
+            }
+        },
+        "Promotion Winter": {
+            "shit_0": {
+                "height": 512,
+                "width": 512,
+                "x": 32,
+                "y": 864
+            }
+        }
+    }
+]

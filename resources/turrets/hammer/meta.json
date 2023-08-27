@@ -1,38 +1,8 @@
-[
-    {
-        "file": "meta.info",
-        "id": "1691390910427"
-    },
-    {
-        "file": "lightmap.webp",
-        "id": "1691390910427"
-    },
-    {
-        "file": "object.3ds",
-        "id": "1691390910427"
-    },
-    {
-        "file": "meta.info",
-        "id": "500300253"
-    },
-    {
-        "file": "lightmap.webp",
-        "id": "500300253"
-    },
-    {
-        "file": "object.3ds",
-        "id": "500300253"
-    },
-    {
-        "file": "meta.info",
-        "id": "1691390910274"
-    },
-    {
-        "file": "lightmap.webp",
-        "id": "1691390910274"
-    },
-    {
-        "file": "object.3ds",
-        "id": "1691390910274"
-    }
-]
+{
+	"id": "1691390910427",
+	"files": [
+		"meta.info",
+		"lightmap.webp",
+		"object.3ds"
+	]
+}
