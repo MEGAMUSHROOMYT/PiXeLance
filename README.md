@@ -5,6 +5,8 @@
 ![default](https://raw.githubusercontent.com/sheezzmee/PixelPast/main/assets/default.png)
 ![legacy](https://raw.githubusercontent.com/sheezzmee/PixelPast/main/assets/legacy.png)
 
+Discord: **sheezzmee**
+
 ## Установка
 
 **1.** Установите [Tampermonkey](https://www.tampermonkey.net/)
