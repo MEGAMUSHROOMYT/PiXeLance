@@ -1,0 +1,1277 @@
+body {
+	font: 13px/16px Tahoma, Verdana, sans-serif;
+	color: #c6bab3;
+	background: #100906 url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg.jpg) repeat-y 50% 0;
+	margin: 0;
+	min-width: 1000px;
+}
+
+.mini {
+	font: 12px/16px Tahoma, Verdana, sans-serif;
+}
+
+a {
+	text-decoration: underline;
+	color: #c93;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+}
+
+input, textarea, select {
+	font: 100% arial,sans-serif;
+	vertical-align: middle;
+}
+
+form,fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+img {
+	border-style: none;
+}
+
+#main {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-main-summer.jpg) no-repeat 50% 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+h1.logo {
+	float: left;
+  /*	background:url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/logo.png) no-repeat;*/
+	width: 208px;
+	height: 264px;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin: 12px 0 0;
+}
+
+.logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#header {
+	width: 717px;
+	height: 425px;
+	padding: 0 137px 0 146px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header {
+	width: 717px;
+	height: 288px;
+	overflow: hidden;
+}
+
+.header .icons {
+	float: left;
+	width: 57px;
+	padding: 0;
+	margin: 77px 0 0;
+	list-style: none;
+}
+
+.header .icons li {
+	width: 57px;
+	margin: 6px 0 0;
+	overflow: hidden;
+}
+
+.header .icons li img {
+	display: block;
+}
+
+#menu {
+	float: left;
+	width: 191px;
+	padding: 0;
+	margin: 75px 0 0;
+	list-style: none;
+}
+
+#menu li {
+	float: left;
+	width: 100%;
+	margin: 4px 0 0;
+}
+
+#menu li a {
+	display: block;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-menu.jpg) no-repeat;
+	width: 141px;
+	height: 31px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+#menu li a.btn-about {
+	background-position: 100% 0;
+}
+
+#menu li a.btn-about:hover {
+	background-position: 0 0;
+}
+
+#menu li.active a.btn-about {
+	background-position: 0 0;
+}
+
+#menu li a.btn-begin {
+	background-position: 100% -35px;
+}
+
+#menu li a.btn-begin:hover {
+	background-position: 0 -35px;
+}
+
+#menu li.active a.btn-begin {
+	background-position: 0 -35px;
+}
+
+#menu li a.btn-article {
+	background-position: 100% -70px;
+}
+
+#menu li a.btn-article:hover {
+	background-position: 0 -70px;
+}
+
+#menu li.active a.btn-article {
+	background-position: 0 -70px;
+}
+
+#menu li a.btn-blog {
+	background-position: 100% -105px;
+}
+
+#menu li a.btn-blog:hover {
+	background-position: 0 -105px;
+}
+
+#menu li.active a.btn-blog {
+	background-position: 0 -105px;
+}
+
+#menu li a.btn-forum {
+	background-position: 100% -140px;
+}
+
+#menu li a.btn-forum:hover {
+	background-position: 0 -140px;
+}
+
+#menu li.active a.btn-forum {
+	background-position: 0 -140px;
+}
+
+.header .info {
+	float: right;
+	width: 209px;
+	margin: 80px 0 0;
+}
+
+.header .server {
+	width: 205px;
+	height: 89px;
+	padding: 4px 0 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header .server .btn {
+	display: block;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/btn-begin.gif) no-repeat;
+	width: 195px;
+	height: 57px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-indent: -9999px;
+}
+
+.header .server .btn-not {
+	display: none;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/btn-not.jpg) no-repeat;
+	width: 195px;
+	height: 57px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-indent: -9999px;
+}
+
+.header .server .btn:hover {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/btn-begin.gif) no-repeat 0 -57px;
+}
+
+.header .server .item {
+	width: 195px;
+	padding: 0 0 0 10px;
+	overflow: hidden;
+}
+
+.header .server .title {
+	float: left;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-server.png) no-repeat;
+	width: 59px;
+	height: 9px;
+	margin: 8px 0 0;
+	text-indent: -9999px;
+}
+
+.header .server .part {
+	float: left;
+	width: 126px;
+}
+
+.header .server .part span {
+	float: left;
+	font: bold 11px Tahoma, Verdana, sans-serif;
+	color: #ccc;
+	width: 14px;
+	text-align: right;
+	margin-right: 2px;
+	margin-top: 5px;
+}
+
+.header .server .part ul {
+	float: left;
+	padding: 0 4px 0 0;
+	margin: 4px 0 0;
+	list-style: none;
+}
+
+.header .server .part ul li {
+	float: left;
+	padding: 0 0 0 1px;
+}
+
+.header .server .part ul li img {
+	display: block;
+}
+
+.header .server .play {
+	float: left;
+	font-size: 10px;
+	line-height: 18px;
+	color: #ccc;
+	width: 78px;
+  /*background:url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/btn-ok.gif) no-repeat 100% 0;*/
+	text-decoration: none;
+	margin: 3px 0 0;
+}
+
+.header .all {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-players.jpg) no-repeat;
+	width: 209px;
+	height: 72px;
+	overflow: hidden;
+	margin: 5px 0 0;
+}
+
+.header .all ul {
+	width: 184px;
+	padding: 0 13px 0 12px;
+	margin: 8px 0 0;
+	overflow: hidden;
+	list-style: none;
+}
+
+.header .all ul li {
+	float: left;
+	width: 184px;
+	margin: 3px 0 0;
+}
+
+.header .all ul li strong {
+	float: left;
+	display: inline;
+	font-size: 8px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.header .all ul li strong.text-all {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-players.png) no-repeat;
+	width: 95px;
+	height: 10px;
+	margin: 4px 0 0;
+}
+
+.header .all ul li strong.text-online {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-online.png) no-repeat;
+	width: 69px;
+	height: 12px;
+	margin: 4px 0 0 47px;
+}
+
+.header .all ul li strong.text-battle {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-battle.png) no-repeat;
+	width: 65px;
+	height: 8px;
+	margin: 3px 0 0 24px;
+}
+
+.header .all ul li p {
+	font-size: 11px;
+	line-height: 14px;
+	color: #ccc;
+	margin: 0;
+	text-align: right;
+}
+
+#header .holder {
+	width: 590px;
+	padding: 0 0 0 59px;
+	overflow: hidden;
+}
+
+#header .slogan {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/slogan.png) no-repeat;
+	width: 504px;
+	height: 31px;
+	display: block;
+	margin: 0 auto;
+	text-indent: -9999px;
+}
+
+#header .box {
+	width: 590px;
+	overflow: hidden;
+	margin: 7px 0 0;
+}
+
+#header .box .t {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-box-t.png) no-repeat;
+	width: 590px;
+	height: 15px;
+	overflow: hidden;
+}
+
+#header .box .c {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-box-c.png) repeat;
+	width: 570px;
+	padding: 0 10px;
+}
+
+#header .box .c:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+#header .box .text {
+	float: left;
+	width: 570px;
+	margin: -7px 0 -2px;
+	position: relative;
+}
+
+#header .box .text p {
+	margin: 0;
+}
+
+#header .box .b {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-box-b.png) no-repeat;
+	width: 590px;
+	height: 15px;
+	overflow: hidden;
+}
+
+#content {
+	width: 948px;
+	padding: 0 26px;
+	min-height: 400px;
+	margin: 40px auto 0;
+	overflow: hidden;
+	z-index: 2;
+	position: relative;
+}
+
+* html #content {
+	height: 400px;
+	overflow: visible;
+}
+
+.content {
+	float: left;
+	width: 615px;
+}
+
+.inner .content {
+	float: left;
+	width: 655px;
+	padding: 10px 30px 10px 20px;
+}
+
+.inner .textbox .content {
+	width: 908px;
+	padding: 10px 20px 10px 20px;
+}
+
+.inner .content h2 {
+	font: 18px/20px Arial, Helvetica, sans-serif;
+	color: #cac9c7;
+	margin: 0 0 12px 0;
+}
+
+.inner .review .content h2 {
+	margin: 0 0 6px;
+}
+
+.inner .content h2 a {
+	color: #cac9c7;
+	text-decoration: none;
+}
+
+.inner .content h2 a:hover {
+	text-decoration: underline;
+}
+
+.inner .content p {
+	margin: 17px 0 0;
+}
+
+.inner .textbox .content p {
+	margin: 0 0 17px;
+}
+
+.inner .review .content p {
+	margin: 0 0 17px;
+}
+
+.content .new {
+	width: 100%;
+	padding: 0 0 15px;
+	overflow: hidden;
+}
+
+.content .new .date {
+	display: block;
+	font: 12px/16px Arial, Helvetica, sans-serif;
+	color: #999;
+	font-style: normal;
+}
+
+.inner .content .new p {
+	margin: 5px 0 0;
+}
+
+.inner .content table {
+	margin: 20px 0 0;
+	border: 1px solid #665b59;
+	border-width: 0 0 1px 1px;
+}
+
+.inner .content table td {
+	border: 1px solid #665b59;
+	border-width: 1px 1px 0 0;
+	padding: 6px 10px;
+}
+
+.inner .content table .head td {
+	text-align: center;
+	font-weight: bold;
+}
+
+.inner .content table td.cel1 {
+	width: 304px;
+}
+
+.inner .content table td.cel2 {
+	width: 132px;
+}
+
+.inner .content table td.cel3 {
+	width: 132px;
+}
+
+.review .content .more {
+	width: 100%;
+	padding: 0 0 16px;
+	overflow: hidden;
+	margin: -17px 0 0;
+}
+
+.review .content .more a {
+	float: right;
+	color: #ff9d33;
+}
+
+.links-box {
+	width: 100%;
+	overflow: hidden;
+}
+
+.links-box .item {
+	float: left;
+	width: 250px;
+}
+
+.links-box .one {
+	width: 345px;
+	padding: 0 0 0 5px;
+}
+
+.links-box .item .photo {
+	float: left;
+	width: 100px;
+}
+
+.links-box .one .photo {
+	width: 135px;
+}
+
+.links-box .item .photo img {
+	display: block;
+}
+
+.links-box .item .text {
+	float: left;
+	width: 150px;
+}
+
+.links-box .one .text {
+	width: 210px;
+}
+
+.links-box .item .text p {
+	margin: 0;
+}
+
+.screen-box {
+	width: 100%;
+	overflow: hidden;
+	margin: 30px 0 0;
+}
+
+.screen-box h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-screen.png) no-repeat;
+	width: 130px;
+	height: 10px;
+	margin: 0 0 0 4px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.screen-box ul {
+	width: 100%;
+	padding: 0;
+	margin: 5px 0 0;
+	overflow: hidden;
+	list-style: none;
+}
+
+.screen-box ul li {
+	float: left;
+	width: 189px;
+	height: 134px;
+	padding: 4px;
+	margin: 0 4px 4px 0;
+}
+
+.screen-box ul li img {
+	display: block;
+}
+
+.video-box {
+	width: 100%;
+	overflow: hidden;
+	margin: 20px 0 0;
+}
+
+.video-box h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-video.png) no-repeat;
+	width: 87px;
+	height: 11px;
+	margin: 0 0 2px 4px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.video-box p {
+	margin: 0 0 10px 4px;
+}
+
+.video-box .photo {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-video.jpg) no-repeat;
+	width: 586px;
+	padding: 5px 6px;
+	height: 367px;
+	overflow: hidden;
+}
+
+.video-box .photo img {
+	display: block;
+}
+
+.boxes {
+	width: 100%;
+	overflow: hidden;
+	margin: 30px 0 0;
+}
+
+.boxes .box {
+	float: left;
+	width: 360px;
+}
+
+.boxes .klan {
+	width: 200px;
+}
+
+.boxes .box h2 {
+	width: 100%;
+	height: 10px;
+	margin: 0 0 2px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.boxes .important h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-graphic.png) no-repeat;
+	width: 197px;
+	height: 11px;
+	margin: 0 0 0 8px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.boxes .klan h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-klan.png) no-repeat;
+	margin: 0 0 8px 0;
+}
+
+.boxes .box p {
+	margin: 0 0 10px 4px;
+}
+
+.boxes .klan p {
+	margin: 0;
+}
+
+.boxes .important .photo {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-graph.png) no-repeat;
+	width: 296px;
+	height: 260px;
+	padding: 36px 0 0 39px;
+	overflow: hidden;
+	margin: 8px 0 0 -6px;
+}
+
+.boxes .pic-list {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	list-style: none;
+}
+
+.boxes .pic-list li {
+	float: left;
+	width: 100%;
+	line-height: 27px;
+	margin: 10px 0px 0px;
+}
+
+.boxes .pic-list .pic {
+	float: left;
+	width: 31px;
+	padding: 4px;
+	height: 26px;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-klan.jpg) no-repeat;
+	margin: 0 8px 0 0;
+}
+
+* html .boxes .pic-list .pic {
+	margin: 0 5px 0 0;
+}
+
+.boxes .pic-list p {
+	margin: 2px 0 0;
+}
+
+.sidebar {
+	float: left;
+	width: 333px;
+}
+
+.inner .sidebar {
+	width: 195px;
+}
+
+.inner .sidebar h3 {
+	font: bold 12px/16px Tahoma, Verdana, sans-serif;
+	color: #cdcfce;
+	margin: 0;
+}
+
+.inner .news .sidebar h3,
+.inner .review .sidebar h3 {
+	margin: 0 0 4px;
+}
+
+.inner .sidebar ul {
+  overflow: hidden;
+	padding: 0 0 10px 8px;
+	margin: 0;
+}
+
+.inner .news .sidebar ul,
+.inner .review .sidebar ul {
+	padding: 0 0 18px;
+}
+
+.inner .news .sidebar ul li,
+.inner .review .sidebar ul li {
+	margin: 2px 0 0;
+}
+
+.inner .sidebar ul a {
+	color: #ff9930;
+}
+
+.inner .news .sidebar ul a,
+.inner .review .sidebar ul a {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/separator1-over.gif) no-repeat 0 4px;
+	color: #ff9535;
+	padding: 0 0 0 17px;
+	text-decoration: underline;
+}
+
+.inner .news .sidebar ul a:hover,
+.inner .review .sidebar ul a:hover {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/separator1.gif) no-repeat 0 4px;
+	color: #9c9696;
+	text-decoration: none;
+}
+
+.inner .news .sidebar ul a.active,
+.inner .review .sidebar ul a.active {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/separator1.gif) no-repeat 0 4px;
+	color: #9c9696;
+	text-decoration: none;
+}
+
+.sidebar .ad {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-pb.jpg) no-repeat;
+	width: 307px;
+	height: 80px;
+	padding: 4px;
+	margin: 0 0 10px 2px;
+	overflow: hidden;
+}
+
+.sidebar .ad img {
+	display: block;
+}
+
+.sidebar .ico-list {
+	width: 100%;
+	padding: 12px 0 0;
+	margin: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.sidebar .ico-list li {
+	float: left;
+	padding: 0 2px 0 0;
+}
+
+.sidebar .ico-list li a {
+	display: block;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/icons.png) no-repeat;
+	width: 35px;
+	height: 37px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.sidebar .ico-list li a.ico1 {
+	background-position: 0 0;
+}
+
+.sidebar .ico-list li a.ico1:hover {
+	background-position: 0 100%;
+}
+
+.sidebar .ico-list li a.ico2 {
+	background-position: -35px 0;
+}
+
+.sidebar .ico-list li a.ico2:hover {
+	background-position: -35px 100%;
+}
+
+.sidebar .ico-list li a.ico3 {
+	background-position: -70px 0;
+}
+
+.sidebar .ico-list li a.ico3:hover {
+	background-position: -70px 100%;
+}
+
+.sidebar .ico-list li a.ico4 {
+	background-position: -105px 0;
+}
+
+.sidebar .ico-list li a.ico4:hover {
+	background-position: -105px 100%;
+}
+
+.sidebar .ico-list li a.ico5 {
+	background-position: -140px 0;
+}
+
+.sidebar .ico-list li a.ico5:hover {
+	background-position: -140px 100%;
+}
+
+.sidebar .ico-list li a.ico6 {
+	background-position: -175px 0;
+}
+
+.sidebar .ico-list li a.ico6:hover {
+	background-position: -175px 100%;
+}
+
+.sidebar .ico-list li a.ico7 {
+	background-position: -210px 0;
+}
+
+.sidebar .ico-list li a.ico7:hover {
+	background-position: -210px 100%;
+}
+
+.news-box {
+  padding: 0 0 0 8px;
+	overflow: hidden;
+	margin: 28px 0 0;
+}
+
+.news-box h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-news.png) no-repeat;
+	width: 61px;
+	height: 10px;
+	margin: 0;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.news-box .item {
+	width: 100%;
+	overflow: hidden;
+	margin: 17px 0 0;
+}
+
+.news-box .item .date {
+	display: block;
+	font-style: normal;
+	font-size: 10px;
+	color: #666;
+}
+
+.news-box .item p {
+	margin: 0;
+}
+
+.view-box {
+  padding: 0 0 0 8px;
+	overflow: hidden;
+	margin: 28px 0 0;
+}
+
+.view-box h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-view.png) no-repeat;
+	width: 55px;
+	height: 11px;
+	margin: 0;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.view-box .item {
+	width: 100%;
+	overflow: hidden;
+	margin: 14px 0 0;
+}
+
+.view-box .item h3 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.view-box .item h3 a {
+	color: #f93;
+}
+
+.view-box .item p {
+	margin: 0;
+}
+
+.graphic-box {
+  overflow: hidden;
+	margin: 28px 0 0;
+}
+
+.graphic-box h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-graphic.png) no-repeat;
+	width: 197px;
+	height: 11px;
+	margin: 0 0 5px 8px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.graphic-box p {
+	margin: 0 0 0 8px;
+}
+
+.graphic-box .photo {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-graph.png) no-repeat;
+	width: 296px;
+	height: 260px;
+	padding: 36px 0 0 39px;
+	overflow: hidden;
+	margin: 8px 0 0;
+}
+
+.graphic-box .photo .holder {
+	position: relative;
+}
+
+#footer {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-footer.gif) no-repeat 50% 0;
+	width: 100%;
+	overflow: hidden;
+	margin: -30px 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+.footer {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-footer.png) no-repeat;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.footer .holder {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg-footer.jpg) no-repeat 0 24px;
+	width: 1000px;
+	position: relative;
+	height: 150px;
+	padding: 70px 0 0;
+	overflow: hidden;
+}
+
+.footer .copy {
+	float: left;
+	width: 460px;
+	padding: 0 0 0 30px;
+}
+
+.footer p {
+	color: #999;
+	margin: 13px 0 0;
+}
+
+.footer .copy ul {
+	width: 100%;
+	padding: 0;
+	margin: 17px 0 0;
+	overflow: hidden;
+	list-style: none;
+}
+
+.footer .copy ul li {
+	display: inline;
+	padding: 0 0 0 35px;
+}
+
+.footer .copy ul li:first-child {
+	padding: 0;
+}
+
+.footer .item {
+	float: left;
+	width: 410px;
+}
+
+.footer .logotype {
+	display: block;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/logo-alternative.png) no-repeat;
+	width: 263px;
+	height: 33px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#currentServer {
+	padding-bottom: 24px;
+}
+
+#serversList {
+	position: absolute;
+  /*	width: 132px;*/
+	display: none;
+  /*	visibility:hidden;*/
+	background: #100906 url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/bg.jpg) repeat-y 50% 0;
+	z-index: 10;
+	border: 1px solid #393026;
+}
+
+#currentServer {
+	cursor: pointer;
+	display: block;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/btn-ok.gif) no-repeat 105px 4px;
+}
+
+#currentServer:hover {
+	background-image: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/btn-ok_2.gif);
+}
+
+#serversList .players {
+	float: left;
+	font-size: 10px;
+	line-height: 18px;
+	width: 78px;
+	margin: 3px 0 0;
+	font-weight: normal;
+	text-align: left;
+}
+
+#serversList .part {
+	cursor: pointer;
+	height: 24px;
+	float: none;
+	display: block;
+	text-decoration: none;
+	padding-left: 4px;
+}
+
+#serversList .disabled {
+	cursor: default;
+}
+
+.server a.part:hover {
+	background-color: #1b1613;
+}
+
+.server a.disabled:hover {
+	background-color: transparent;
+}
+
+#serversList .disabled, #currentServer.disabled span,  #currentServer.disabled ul,  #currentServer.disabled a {
+	opacity: 0.5;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50 );
+}
+
+.clear {
+	clear: both;
+}
+
+.boxes .social2 {
+	margin: -13px 15px 0 3px;
+}
+
+.boxes .social2 h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-social.png) no-repeat;
+	margin: 0;
+	text-indent: -9999px;
+}
+
+.boxes .social2 .social2-box {
+	margin-top: 10px;
+}
+
+.boxes .social2 .social2-box .iconset {
+	display: block;
+	float: left;
+	width: 172px;
+	height: 37px;
+	margin-bottom: 5px;
+}
+
+.boxes .social2 .social2-box .left {
+	margin-right: 27px;
+}
+
+.boxes .social2 .social2-box .iconset a {
+	float: left;
+	display: block;
+	padding: 9px 10px 0 40px;
+}
+
+.boxes .social2 .social2-box .twitter {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_twitter.png) top left no-repeat;
+}
+
+.boxes .social2 .social2-box .twitter.hover {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_twitter.png) bottom left no-repeat;
+}
+
+.boxes .social2 .social2-box .vkontakte {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_vkontakte.png) top left no-repeat;
+}
+
+.boxes .social2 .social2-box .vkontakte.hover {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_vkontakte.png) bottom left no-repeat;
+}
+
+.boxes .social2 .social2-box .facebook {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_facebook.png) top left no-repeat;
+}
+
+.boxes .social2 .social2-box .facebook.hover {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_facebook.png) bottom left no-repeat;
+}
+
+.boxes .social2 .social2-box .livejournal {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_livejournal.png) top left no-repeat;
+}
+
+.boxes .social2 .social2-box .livejournal.hover {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/ico_livejournal.png) bottom left no-repeat;
+}
+
+.social-cont {
+	padding: 5px 15px 26px 6px;
+}
+
+.social {
+	float: left;
+	margin: 5px 5px 5px 0;
+}
+
+.social-cont .twitter {
+	width: 98px !important;
+}
+
+.social-cont .plusone {
+	width: 68px !important;
+}
+
+.social-cont .moimir {
+	padding-top: 1px;
+	width: 130px !important;
+}
+
+.polls-box {
+  padding: 5px 0 0 8px;
+	overflow: hidden;
+	margin: 28px 0 0;
+}
+
+.polls-box h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text-polls.png) no-repeat;
+	width: 56px;
+	height: 9px;
+	margin: 0;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.wp-polls ul li, .wp-polls-ul li, .wp-polls-ans ul li {
+	padding: 2px;
+}
+
+.wp-polls-ul {
+	margin: 0 !important;
+	padding: 0;
+}
+
+.checkbox, .radio {
+	width: 19px;
+	height: 20px;
+	padding: 0 4px 0 0;
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/checkbox.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+	margin-top: -1px;
+}
+
+.radio {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/radio.png) no-repeat;
+}
+
+.totalVotes {
+	padding: 2px;
+	margin: 0px;
+}
+
+.pollQuestion {
+	margin-bottom: 5px;
+}
+
+.pollButton {
+	margin: 10px 0px 0px 94px;
+}
+
+.pollButton a {
+	background: url("https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/btn-vote.png") no-repeat scroll 0 0 transparent;
+	border: 0 none;
+	height: 29px;
+	margin: 0;
+	padding: 0;
+	width: 137px;
+	display: block;
+	cursor: pointer;
+}
+
+.pollButton a:hover {
+	background-position: 0 -29px;
+}
+
+.archiveURL {
+	margin: 5px 0 0 0;
+	padding: 2px;
+}
+
+.view-new h2 {
+	background: url(https://raw.githubusercontent.com/sheezzmee/PixelPast/main/website/assets/text2.png) no-repeat;
+	width: 103px;
+}
+
+.view-new span {
+	color: #fff;
+	margin-top: 10px;
+	display: block;
+}
+
+.view-new span .meta-nav {
+	display: none;
+}
+/*
+     FILE ARCHIVED ON 05:39:38 Sep 03, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:36:14 Sep 03, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 139.725
+  exclusion.robots: 0.138
+  exclusion.robots.policy: 0.127
+  cdx.remote: 0.06
+  esindex: 0.01
+  LoadShardBlock: 96.368 (3)
+  PetaboxLoader3.datanode: 93.091 (4)
+  load_resource: 63.786
+  PetaboxLoader3.resolve: 28.582
+*/

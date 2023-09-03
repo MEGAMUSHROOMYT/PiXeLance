@@ -33,3 +33,11 @@ export const parseFile = (url, resources) => GM_fetch(url).then(async response =
         });
     }
 })
+
+export const replaceHTML = url => GM_fetch(url).then(
+    async response => {
+        const html = document.querySelector('html'); 
+        html.textContent = '';
+        html.innerHTML = await response.text();
+    }
+)
