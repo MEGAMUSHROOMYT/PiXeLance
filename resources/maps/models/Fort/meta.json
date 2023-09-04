@@ -1,0 +1,19 @@
+{
+    "id": "10001880",
+    "reloadable": true,
+    "files": [
+        "tower_corner.3ds",
+        "tower_end.3ds",
+        "tower_roof.3ds",
+        "tower_str.3ds",
+        "wall.3ds",
+        "wall_broken_1.3ds",
+        "wall_broken_2.3ds",
+        "wall_cor_in.3ds",
+        "wall_cor_out.3ds",
+        "wall_end_1.3ds",
+        "wall_end_2.3ds",
+        "wall_gate.3ds",
+        "wall_short.3ds"
+    ]
+}

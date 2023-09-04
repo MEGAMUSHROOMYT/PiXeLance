@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/sheezzmee/PixelPast.git"
   },
-  "usercontent": "https://raw.githubusercontent.com/sheezzmee/PixelPast/main",
+  "usercontent": "http://127.0.0.1:7999",
   "author": "sheezzmee",
   "license": "MIT",
   "bugs": {
