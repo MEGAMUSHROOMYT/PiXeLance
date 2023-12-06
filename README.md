@@ -1,26 +1,9 @@
-<center><h1>PIXELBALANCE</h1><br>
-<p>A fork of 'PixelPast'.</p></center>
+<p align="center" width="100%">
+  <img src="https://github.com/bjuonday/PixelBalance/assets/113231787/fa2d5c4d-4c8d-468c-9a7b-bfc72309b0ba"><br>
+A fork of 'PixelPast'.<br>
+A free open source mod for Tanki Online game, reviving some old textures (after release <b>1.100.0</b>).
+</p>
 
-**PixelPast** - бесплатный мод с открытым исходным кодом для игры "*Танки онлайн*", возвращающий **старые текстуры** (до релиза **1.100.0**).
-
-![default](https://raw.githubusercontent.com/sheezzmee/PixelPast/main/assets/default.png)
-![legacy](https://raw.githubusercontent.com/sheezzmee/PixelPast/main/assets/legacy.png)
-
-Discord: **sheezzmee**
-
-## Установка
-
-**1.** Установите [Tampermonkey](https://www.tampermonkey.net/)
-
-**2.** Установите [скрипт](https://raw.githubusercontent.com/sheezzmee/PixelPast/main/PixelPast.user.js)
-
-## Участвовали в разработке
-
-- **sabaka-babaka**
-- **runas.exe**
-- Rabotaem
-- Beyyoonddeath
-- tdsrse
-- hopzy
-- Surrealism
-- predator
+## Installation
+**1.** Install [Tampermonkey](https://www.tampermonkey.net/).
+**2.** Install [this script](https://raw.githubusercontent.com/sheezzmee/PixelPast/main/PixelPast.user.js).
