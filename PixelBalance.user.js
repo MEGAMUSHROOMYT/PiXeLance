@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         PixelPast
+// @name         PixelBalance
 
 // @version      1.2.4
-// @description  PixelPast is a free and open source mod for the game "Tanki Online"
+// @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       sheezzmee
 
 // @match        https://*.test-eu.tankionline.com/browser-public/index.html?*
