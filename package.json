@@ -9,19 +9,19 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
-  "version": "1.2.4",
-  "name": "PixelPast",
+  "version": "1.0",
+  "name": "PixelBalance",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sheezzmee/PixelPast.git"
+    "url": "git+https://github.com/bjuonday/PixelBalance.git"
   },
-  "usercontent": "https://raw.githubusercontent.com/sheezzmee/PixelPast/main",
+  "usercontent": "https://raw.githubusercontent.com/bjuonday/PixelBalance/main",
   "author": "sheezzmee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sheezzmee/PixelPast/issues"
+    "url": "https://github.com/bjuonday/PixelBalance/issues"
   },
-  "homepage": "https://github.com/sheezzmee/PixelPast#readme",
+  "homepage": "https://github.com/bjuonday/PixelBalance#readme",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
