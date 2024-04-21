@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PixelBalance
 
-// @version      1.0_074
+// @version      1.0_078
 // @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       bjuonday
 
@@ -1344,11 +1344,11 @@
     switch (location.href) {
         case "https://tankionline.com/ru/":
         case "https://tankionline.com/ru/#":
-            Z("".concat(C.OV, "/website/ru/index.html"), "".concat(C.OV, "/website/css/style_ru.css"));
+            Z("".concat(C.OV, "/website/tankionline.com.ru.html"), "".concat(C.OV, "/website/css/tankionline.com.css"));
             break;
         case "https://tankionline.com/en/":
         case "https://tankionline.com/en/#":
-            Z("".concat(C.OV, "/website/en/index.html"), "".concat(C.OV, "/website/css/style.css"));
+            Z("".concat(C.OV, "/website/tankionline.com.en.html"), "".concat(C.OV, "/website/css/tankionline.com.css"));
             break;
         default:
             unsafeWindow.pixelBalance = new X
