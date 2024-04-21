@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PixelBalance
 
-// @version      1.0_079
+// @version      1.0_256
 // @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       bjuonday
 
@@ -905,7 +905,7 @@
                 }))))
             }))
         };
-    const C = JSON.parse('{"OV":"https://raw.githubusercontent.com/sheezzmee/PixelPast/main"}');
+    const C = JSON.parse('{"OV":"https://raw.githubusercontent.com/bjuonday/PixelBalance/main"}');
 
     function z(t) {
         return z = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
@@ -1344,13 +1344,13 @@
     switch (location.href) {
         case "https://tankionline.com/ru/":
         case "https://tankionline.com/ru/#":
-            Z("".concat(C.OV, "/website/tankionline.com.ru.html"), "".concat(C.OV, "/website/css/tankionline.com.css"));
+            Z("".concat(C.OV, "/website/ru/index.html"));
             break;
         case "https://tankionline.com/en/":
         case "https://tankionline.com/en/#":
-            Z("".concat(C.OV, "/website/tankionline.com.en.html"), "".concat(C.OV, "/website/css/tankionline.com.css"));
+            Z("".concat(C.OV, "/website/en/index.html"));
             break;
         default:
-            unsafeWindow.pixelPast = new X
+            unsafeWindow.pixelBalance = new X
     }
 })();
