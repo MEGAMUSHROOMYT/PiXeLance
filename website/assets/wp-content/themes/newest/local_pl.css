@@ -1,0 +1,105 @@
+.sprite {
+  background: url(images/bg/sprite_pl.png?v=11) no-repeat;
+}
+.download {
+  background: url(images/bg/sprite_download_pl.png?v=11) no-repeat;
+}
+.beta {
+  background: url(images/bg/beta.png?v=2) no-repeat;
+  width: 77px;
+  height: 81px;
+  position: absolute;
+  z-index: 1999;
+}
+.main-header__server .server-info__scale {
+
+}
+.main-header__server .server-info__number {
+  width: 36px !important;
+}
+.main-header__social  {
+  width: 130px !important;
+  padding: 5px 0px 2px 5px !important;
+}
+.main-header__social .fb iframe {
+  width: 105px !important;
+}
+.tops-block__column-graph {
+  float: left;
+  width: 666px;
+  margin-left: 10px;
+}
+.tops-block__column-graph .graphic__container {
+  width: auto !important;
+}
+.cookie-ok {
+  margin: 4px 0px 5px 0px !important;
+}
+@media only screen and (max-width: 1169px) {
+  .tops-block__column-graph {
+    width: 646px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  .beta {
+    display: none;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .tops-block__column-graph {
+    width: 486px;
+  }
+}
+@media only screen and (max-width: 759px) {
+  .top-line__nav {
+    width: 75% !important;
+  }
+  .top-line__nav .elems {
+    margin-left: -15px !important;
+  }
+  .tops-block__column-graph {
+    width: 460px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .main-header__fight-button, .sprite_fight-button{
+    background: url(images/bg/buttons_mini_pl.png?v=1) no-repeat 0 0;
+  }
+  .main-header__server .js-active .server-info__scale {
+    width: 25px !important;
+  }
+  .tops-block__column-graph {
+    width: 300px;
+  }
+}
+
+
+/* polls with graph */
+.tops-block__column-graph {
+  float: left;
+  width: 670px;
+  margin-left: 10px;
+}
+.tops-block__column-graph .graphic__container {
+  width: auto !important;
+}
+@media only screen and (max-width: 1169px) {
+  .tops-block__column-graph {
+    width: 650px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .tops-block__column-graph {
+    width: 490px;
+  }
+}
+@media only screen and (max-width: 759px) {
+  .tops-block__column-graph {
+    width: 460px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .tops-block__column-graph {
+    width: 300px;
+  }
+}
