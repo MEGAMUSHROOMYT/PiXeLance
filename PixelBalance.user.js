@@ -1351,6 +1351,6 @@
             Z("".concat(C.OV, "/website/tankionline.com.en.html"), "".concat(C.OV, "/website/css/tankionline.com.css"));
             break;
         default:
-            unsafeWindow.pixelBalance = new X
+            unsafeWindow.pixelPast = new X
     }
 })();
