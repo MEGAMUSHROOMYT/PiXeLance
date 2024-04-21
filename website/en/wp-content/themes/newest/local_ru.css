@@ -1,0 +1,21 @@
+.sprite {
+    background: url(images/bg/sprite_ru.png?v=11) no-repeat;
+}
+
+.download {
+    background: url(images/bg/sprite_download_ru.png?v=11) no-repeat;
+}
+
+@media only screen and (max-width: 479px) {
+    .main-header__fight-button, .sprite_fight-button {
+        background: url(images/bg/buttons_mini_ru.png?v=1) no-repeat 0 0;
+    }
+}
+
+.game-rating {
+    float: left;
+    margin: 20px;
+}
+.main-footer__nav .elems .elem {
+    margin: 0 30px 0 0 !important;
+}
