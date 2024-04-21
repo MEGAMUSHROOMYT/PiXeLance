@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PixelBalance
 
-// @version      1.0_07
+// @version      1.0_074
 // @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       bjuonday
 
