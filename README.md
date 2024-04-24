@@ -7,4 +7,4 @@ A free open source mod for Tanki Online game, reviving some new old textures (so
 
 ## Installation
 **1.** Install [Tampermonkey](https://www.tampermonkey.net/).<br>
-**2.** Install [this script](https://raw.githubusercontent.com/bjuonday/PixelBalance/main/PixelBalance.user.js).
+**2.** Install [this script](https://raw.githubusercontent.com/bjuonday/PiXeLance/main/PiXeLance.user.js).
