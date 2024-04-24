@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         PixelBalance
+// @name         PiXeLance
 
-// @version      1.0_263
+// @version      1.0_322
 // @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       bjuonday
 
@@ -10,10 +10,10 @@
 // @match        https://tankionline.com/ru/
 // @match        https://tankionline.com/en/
 
-// @icon         https://raw.githubusercontent.com/bjuonday/PixelBalance/main/assets/icon.png
+// @icon         https://raw.githubusercontent.com/bjuonday/PiXeLance/main/assets/icon.png
 
-// @downloadURL  https://raw.githubusercontent.com/bjuonday/PixelBalance/main/PixelBalance.user.js
-// @updateURL    https://raw.githubusercontent.com/bjuonday/PixelBalance/main/PixelBalance.meta.js
+// @downloadURL  https://raw.githubusercontent.com/bjuonday/PiXeLance/main/PiXeLance.user.js
+// @updateURL    https://raw.githubusercontent.com/bjuonday/PiXeLance/main/PiXeLance.meta.js
 
 // @grant        GM.xmlHttpRequest
 // @grant        GM.addStyle
