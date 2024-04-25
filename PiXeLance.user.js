@@ -5,6 +5,7 @@
 // @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       bjuonday
 
+// @match        https://*.test-ru.tankionline.com/browser-public/index.html?*
 // @match        https://*.test-eu.tankionline.com/browser-public/index.html?*
 // @match        https://tankionline.com/play*
 // @match        https://tankionline.com/ru/
