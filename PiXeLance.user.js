@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PiXeLance
 
-// @version      1.0_322
+// @version      1.0_327
 // @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       bjuonday
 
@@ -906,7 +906,7 @@
                 }))))
             }))
         };
-    const C = JSON.parse('{"OV":"https://raw.githubusercontent.com/bjuonday/PixelBalance/main"}');
+    const C = JSON.parse('{"OV":"https://raw.githubusercontent.com/bjuonday/PiXeLance/main"}');
 
     function z(t) {
         return z = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {

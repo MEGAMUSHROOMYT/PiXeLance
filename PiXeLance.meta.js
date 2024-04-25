@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PiXeLance
 
-// @version      1.0_322
+// @version      1.0_327
 // @description  A fork of PixelPast - free and open source mod for Tanki Online game
 // @author       bjuonday
 
