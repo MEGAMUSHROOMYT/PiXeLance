@@ -906,7 +906,7 @@
                 }))))
             }))
         };
-    const C = JSON.parse('{"OV":"https://raw.githubusercontent.com/bjuonday/PiXeLance/main"}');
+    const C = JSON.parse('{"OV":"https://raw.githubusercontent.com/MEGAMUSHROOMYTy/PiXeLance/main"}');
 
     function z(t) {
         return z = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
