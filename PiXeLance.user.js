@@ -11,10 +11,10 @@
 // @match        https://tankionline.com/ru/
 // @match        https://tankionline.com/en/
 
-// @icon         https://raw.githubusercontent.com/bjuonday/PiXeLance/main/assets/icon.png
+// @icon         https://raw.githubusercontent.com/MEGAMUSHROOMYT/PiXeLance/main/assets/icon.png
 
-// @downloadURL  https://raw.githubusercontent.com/bjuonday/PiXeLance/main/PiXeLance.user.js
-// @updateURL    https://raw.githubusercontent.com/bjuonday/PiXeLance/main/PiXeLance.meta.js
+// @downloadURL  https://raw.githubusercontent.com/MEGAMUSHROOMYT/PiXeLance/main/PiXeLance.user.js
+// @updateURL    https://raw.githubusercontent.com/MEGAMUSHROOMYT/PiXeLance/main/PiXeLance.meta.js
 
 // @grant        GM.xmlHttpRequest
 // @grant        GM.addStyle
