@@ -13,15 +13,15 @@
   "name": "PixelBalance",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjuonday/PixelBalance.git"
+    "url": "git+https://github.com/MEGAMUSHROOMYT/PixelBalance.git"
   },
-  "usercontent": "https://raw.githubusercontent.com/bjuonday/PixelBalance/main",
+  "usercontent": "https://raw.githubusercontent.com/MEGAMUSHROOMYT/PixelBalance/main",
   "author": "sheezzmee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bjuonday/PixelBalance/issues"
+    "url": "https://github.com/MEGAMUSHROOMYT/PixelBalance/issues"
   },
-  "homepage": "https://github.com/bjuonday/PixelBalance#readme",
+  "homepage": "https://github.com/MEGAMUSHROOMYT/PixelBalance#readme",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
